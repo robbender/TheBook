@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <h1>{{booktitle}}</h1>
+      <!-- <h5>by: {{author}}</h5> -->
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <a (click)="onToc()"><img src="../assets/imgs/image4.png"></a>
+    <ion-fab right bottom>
+      <button ion-fab (click)="onToc()">
+        <!-- <button ion-fab [navPush]="archivedTodosPage"> -->
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+  </ion-fab>
+</ion-content>
